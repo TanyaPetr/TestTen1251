@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">9</td><td class="numi">826,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="9">Test.AutoTests</td><td><a href="#m1"><b>calctut</b>  ("Calc TUT.BY")</a></td><td class="numi">1</td><td>1464005135490</td><td class="numi">74059</td></tr><tr class="failedodd"><td><a href="#m2"><b>comparisondepositstut</b>  ("ComparisonDeposits TUT.BY")</a></td><td class="numi">1</td><td>1464005242707</td><td class="numi">150271</td></tr><tr class="failedodd"><td><a href="#m3"><b>logintut</b>  ("Login to TUT.BY")</a></td><td class="numi">1</td><td>1464005427521</td><td class="numi">76295</td></tr><tr class="failedodd"><td><a href="#m4"><b>logouttut</b>  ("LogOut to TUT.BY")</a></td><td class="numi">1</td><td>1464005525174</td><td class="numi">78456</td></tr><tr class="failedodd"><td><a href="#m5"><b>quiztut</b>  ("Quiz TUT.BY")</a></td><td class="numi">1</td><td>1464005639680</td><td class="numi">7596</td></tr><tr class="failedodd"><td><a href="#m6"><b>recalltut</b>  ("Recall TUT.BY")</a></td><td class="numi">1</td><td>1464005670310</td><td class="numi">110292</td></tr><tr class="failedodd"><td><a href="#m7"><b>searchautotut</b>  ("SearchAuto TUT.BY")</a></td><td class="numi">1</td><td>1464005798367</td><td class="numi">50609</td></tr><tr class="failedodd"><td><a href="#m8"><b>searchtut</b>  ("Search TUT.BY")</a></td><td class="numi">1</td><td>1464005861365</td><td class="numi">7699</td></tr><tr class="failedodd"><td><a href="#m9"><b>sendnews</b>  ("SendNews TUT.BY")</a></td><td class="numi">1</td><td>1464005879261</td><td class="numi">20721</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Test.AutoTests</td><td><a href="#m10"><b>calcmilliontut</b>  ("CalcMillion TUT.BY")</a></td><td class="numi">1</td><td>1464005089379</td><td class="numi">15773</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">Test.AutoTests:calctut</h2>
+<div style="padding-left:3em">
+<p>expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at org.testng.Assert.assertTrue(Assert.java:52)
+<br/>at Test.AutoTests.calctut(AutoTests.java:60)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Test.AutoTests:logintut</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Войти&quot;}
+Command duration or timeout: 73.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d575c6a0-6dd2-4856-90cb-d827db322277
+*** Element info: {Using=link text, value=Войти}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy4.click(Unknown Source)
+<br/>at Pages.LoginPage.login(LoginPage.java:38)
+<br/>at Steps.Steps.logintut(Steps.java:31)
+<br/>at Test.AutoTests.logintut(AutoTests.java:34)
+<br/>34 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Войти&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2543419771392789219webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2543419771392789219webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Test.AutoTests:searchtut</h2>
+<div style="padding-left:3em">
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d9757008-3c0a-4acb-9aca-4de603d80d88</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+<br/>at Pages.Search.openPage(Search.java:42)
+<br/>at Steps.Steps.searchtut(Steps.java:51)
+<br/>at Test.AutoTests.searchtut(AutoTests.java:46)
+<br/>34 lines not shown
+<p>Caused by Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+<br/>at Pages.Search.openPage(Search.java:42)
+<br/>at Steps.Steps.searchtut(Steps.java:51)
+<br/>at Test.AutoTests.searchtut(AutoTests.java:46)
+<br/>34 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+<br/>at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+<br/>at Pages.Search.openPage(Search.java:42)
+<br/>at Steps.Steps.searchtut(Steps.java:51)
+<br/>at Test.AutoTests.searchtut(AutoTests.java:46)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Test.AutoTests:logouttut</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Войти&quot;}
+Command duration or timeout: 76.57 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8dd21ed9-6dfa-4ec4-9c4e-401ff1d00eb2
+*** Element info: {Using=link text, value=Войти}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy4.click(Unknown Source)
+<br/>at Pages.LoginPage.logout(LoginPage.java:49)
+<br/>at Steps.Steps.logouttut(Steps.java:41)
+<br/>at Test.AutoTests.logouttut(AutoTests.java:40)
+<br/>34 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Войти&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Akana/AppData/Local/Temp/anonymous4471412022164582559webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Akana/AppData/Local/Temp/anonymous4471412022164582559webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Test.AutoTests:sendnews</h2>
+<div style="padding-left:3em">
+<p>Window not found. The browser window may have been closed.
+Command duration or timeout: 34 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bcbcdec7-9e67-429d-957e-6df435c9f105
+*** Element info: {Using=css selector, value=div.b-success}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy4.getText(Unknown Source)
+<br/>at Pages.SendNews.issendnews(SendNews.java:56)
+<br/>at Steps.Steps.issendnews(Steps.java:102)
+<br/>at Test.AutoTests.sendnews(AutoTests.java:73)
+<br/>34 lines not shown
+<p>Caused by Window not found. The browser window may have been closed.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12715)
+<br/>at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)
+<br/>at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)
+<br/>at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)
+<br/>at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)
+<br/>at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+<br/>at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+<br/>at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+<br/>at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+<br/>at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+<br/>at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2198240745187010208webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Test.AutoTests:searchautotut</h2>
+<div style="padding-left:3em">
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 63b0a5c7-d671-4d5c-acb4-23a98b8723ff</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:299)
+<br/>at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:190)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:497)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+<br/>at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:115)
+<br/>at Pages.Search.searchauto(Search.java:63)
+<br/>at Steps.Steps.searchautotut(Steps.java:119)
+<br/>at Test.AutoTests.searchautotut(AutoTests.java:78)
+<br/>34 lines not shown
+<p>Caused by Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:299)
+<br/>at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:190)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:497)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+<br/>at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:115)
+<br/>at Pages.Search.searchauto(Search.java:63)
+<br/>at Steps.Steps.searchautotut(Steps.java:119)
+<br/>at Test.AutoTests.searchautotut(AutoTests.java:78)
+<br/>34 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+<br/>at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:214)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:299)
+<br/>at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:190)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:497)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+<br/>at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:115)
+<br/>at Pages.Search.searchauto(Search.java:63)
+<br/>at Steps.Steps.searchautotut(Steps.java:119)
+<br/>at Test.AutoTests.searchautotut(AutoTests.java:78)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Test.AutoTests:quiztut</h2>
+<div style="padding-left:3em">
+<p>Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ea622997-28dc-484a-8ce3-7aa1416ac072</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+<br/>at Pages.Quiz.openPage(Quiz.java:31)
+<br/>at Steps.Steps.quiztut(Steps.java:62)
+<br/>at Test.AutoTests.quiztut(AutoTests.java:52)
+<br/>34 lines not shown
+<p>Caused by Connect to 127.0.0.1:7068 [/127.0.0.1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+<br/>at Pages.Quiz.openPage(Quiz.java:31)
+<br/>at Steps.Steps.quiztut(Steps.java:62)
+<br/>at Test.AutoTests.quiztut(AutoTests.java:52)
+<br/>34 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+<br/>at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+<br/>at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+<br/>at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+<br/>at Pages.Quiz.openPage(Quiz.java:31)
+<br/>at Steps.Steps.quiztut(Steps.java:62)
+<br/>at Test.AutoTests.quiztut(AutoTests.java:52)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Test.AutoTests:comparisondepositstut</h2>
+<div style="padding-left:3em">
+<p>Cannot locate element with text: Ежеквартальная
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown</p>
+org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+<br/>at Pages.Calc.comparisondeposits(Calc.java:88)
+<br/>at Steps.Steps.comparisondepositstut(Steps.java:108)
+<br/>at Test.AutoTests.comparisondepositstut(AutoTests.java:85)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Test.AutoTests:recalltut</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Вход&quot;}
+Command duration or timeout: 72.41 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e6ee8226-deb6-4a1b-ac80-5acbd3962ed6
+*** Element info: {Using=link text, value=Вход}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at com.sun.proxy.$Proxy4.click(Unknown Source)
+<br/>at Pages.Recall.recall(Recall.java:43)
+<br/>at Steps.Steps.recalltut(Steps.java:86)
+<br/>at Test.AutoTests.recalltut(AutoTests.java:66)
+<br/>34 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Вход&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-4SS8CKJ&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2157930796558187781webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Akana/AppData/Local/Temp/anonymous2157930796558187781webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">Test.AutoTests:calcmilliontut</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

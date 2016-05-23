@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251">
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/AbstractPage.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/Calc.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/Quiz.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/Recall.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/Search.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Pages/SendNews.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Steps/Steps.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Test/AutoTests.java" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

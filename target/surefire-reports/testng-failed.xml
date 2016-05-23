@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test.AutoTests]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Test.AutoTests">
+        <methods>
+          <include name="logintut"/>
+          <include name="sendnews"/>
+          <include name="setup"/>
+          <include name="comparisondepositstut"/>
+          <include name="calctut"/>
+          <include name="recalltut"/>
+          <include name="logouttut"/>
+          <include name="searchautotut"/>
+          <include name="searchtut"/>
+          <include name="quiztut"/>
+        </methods>
+      </class> <!-- Test.AutoTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Test.AutoTests] -->
